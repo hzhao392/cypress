@@ -16,10 +16,10 @@ jobs:
     continue-on-error: false
     steps:
       - uses: actions/checkout@v1
-      #- uses: cypress-io/github-action@v2
-      #  with:
-      #    browser: chrome
-      #    headless: true
+      - uses: cypress-io/github-action@v2
+        with:
+          browser: chrome
+          headless: true
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@3.6.1
         with:
