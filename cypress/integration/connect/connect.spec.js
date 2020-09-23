@@ -15,7 +15,7 @@ context('Actions', () => {
       cy.get('#userDashboard').click();
       cy.get('#userData').click();
       cy.get('#userSettings').click();
-      cy.get('[class="col data"]').contains('First name').parent().find('[class="form-control"]').should('have.value','Hui');
+      cy.get('[class="col data"]').contains('First name').parent().find('[class="form-control"]').should('have.value','Hui22');
       cy.get('#signOut').click();
     })
   
